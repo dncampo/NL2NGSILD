@@ -1,0 +1,2702 @@
+[
+  {
+    "id": "urn:ngsi-ld:City:01",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Tokyo"
+    },
+    "country": {
+      "type": "Property",
+      "value": "Japan"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          139.6922,
+          35.6897
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1457
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": -1.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 31.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 16.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 85.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 37732000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 28000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.93
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:02",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Jakarta"
+    },
+    "country": {
+      "type": "Property",
+      "value": "Indonesia"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          106.8275,
+          -6.175
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1527
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 22.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 33.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 27.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 50.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 33756000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 35000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.72
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:03",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Delhi"
+    },
+    "country": {
+      "type": "Property",
+      "value": "India"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          77.23,
+          28.61
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1052
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 5.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 40.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 25.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 45.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 32226000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 50000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.7
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:04",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Guangzhou"
+    },
+    "country": {
+      "type": "Property",
+      "value": "China"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          113.26,
+          23.13
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 214
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 10.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 35.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 22.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 65.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 26940000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 45000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.79
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:05",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Mumbai"
+    },
+    "country": {
+      "type": "Property",
+      "value": "India"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          72.8775,
+          19.0761
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1507
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 16.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 35.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 27.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 55.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 24973000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 42000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.73
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:06",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Manila"
+    },
+    "country": {
+      "type": "Property",
+      "value": "Philippines"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          120.9772,
+          14.5958
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1574
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 21.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 34.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 27.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 40.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 24922000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 38000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.71
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:07",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Shanghai"
+    },
+    "country": {
+      "type": "Property",
+      "value": "China"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          121.4747,
+          31.2286
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1291
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 0.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 34.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 17.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 70.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 24073000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 39000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.82
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:08",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Sao Paulo"
+    },
+    "country": {
+      "type": "Property",
+      "value": "Brazil"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          -46.6333,
+          -23.55
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1554
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 12.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 31.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 19.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 35.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 23086000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 30000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.78
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:09",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Seoul"
+    },
+    "country": {
+      "type": "Property",
+      "value": "Korea, South"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          126.99,
+          37.56
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 18
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": -5.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 31.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 12.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 80.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 23016000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 18000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.9
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:10",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Mexico City"
+    },
+    "country": {
+      "type": "Property",
+      "value": "Mexico"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          -99.1333,
+          19.4333
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1325
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 7.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 29.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 18.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 45.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 21804000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 28000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.76
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:11",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Cairo"
+    },
+    "country": {
+      "type": "Property",
+      "value": "Egypt"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          31.2358,
+          30.0444
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 969
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 9.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 38.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 22.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 40.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 20296000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 38000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.7
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:12",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "New York"
+    },
+    "country": {
+      "type": "Property",
+      "value": "United States"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          -73.9249,
+          40.6943
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1624
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": -5.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 31.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 13.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 75.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 18908608.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 25000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.95
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:13",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Dhaka"
+    },
+    "country": {
+      "type": "Property",
+      "value": "Bangladesh"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          90.3889,
+          23.7639
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1608
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 10.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 36.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 26.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 35.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 18627000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 45000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.65
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:14",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Beijing"
+    },
+    "country": {
+      "type": "Property",
+      "value": "China"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          116.3975,
+          39.9067
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1045
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": -5.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 38.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 12.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 70.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 18522000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 34000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.82
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:15",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Kolkata"
+    },
+    "country": {
+      "type": "Property",
+      "value": "India"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          88.37,
+          22.5675
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1690
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 14.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 38.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 26.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 40.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 18502000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 36000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.69
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:16",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Bangkok"
+    },
+    "country": {
+      "type": "Property",
+      "value": "Thailand"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          100.4942,
+          13.7525
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1782
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 19.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 35.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 28.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 60.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 18007000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 24000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.77
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:17",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Shenzhen"
+    },
+    "country": {
+      "type": "Property",
+      "value": "China"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          114.0596,
+          22.5415
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1979
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 10.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 35.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 23.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 70.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 17619000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 28000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.83
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:18",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Moscow"
+    },
+    "country": {
+      "type": "Property",
+      "value": "Russia"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          37.6172,
+          55.7558
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1147
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": -15.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 28.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 5.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 65.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 17332000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 18000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.8
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:19",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Buenos Aires"
+    },
+    "country": {
+      "type": "Property",
+      "value": "Argentina"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          -58.3817,
+          -34.6033
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1536
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 7.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 32.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 17.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 55.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 16710000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 24000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.79
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:20",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Lagos"
+    },
+    "country": {
+      "type": "Property",
+      "value": "Nigeria"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          3.3841,
+          6.455
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1472
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 22.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 33.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 27.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 30.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 16637000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 88000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.54
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:21",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Istanbul"
+    },
+    "country": {
+      "type": "Property",
+      "value": "Turkey"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          28.955,
+          41.0136
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 330
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 4.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 32.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 14.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 65.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 16079000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 23000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.78
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:22",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Karachi"
+    },
+    "country": {
+      "type": "Property",
+      "value": "Pakistan"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          67.01,
+          24.86
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1729
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 11.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 36.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 27.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 40.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 15738000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 35000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.66
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:23",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Bangalore"
+    },
+    "country": {
+      "type": "Property",
+      "value": "India"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          77.5917,
+          12.9789
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1537
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 15.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 34.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 24.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 60.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 15386000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 40000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.75
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:24",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Ho Chi Minh City"
+    },
+    "country": {
+      "type": "Property",
+      "value": "Vietnam"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          106.7019,
+          10.7756
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1698
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 20.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 35.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 28.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 55.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 15136000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 30000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.71
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:25",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Osaka"
+    },
+    "country": {
+      "type": "Property",
+      "value": "Japan"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          135.5022,
+          34.6939
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1889
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 2.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 34.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 16.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 80.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 15126000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 12000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.91
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:26",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Chengdu"
+    },
+    "country": {
+      "type": "Property",
+      "value": "China"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          104.0633,
+          30.66
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 316
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 4.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 34.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 17.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 65.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 14645000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 20000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.8
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:27",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Tehran"
+    },
+    "country": {
+      "type": "Property",
+      "value": "Iran"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          51.3889,
+          35.6892
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1796
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": -5.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 40.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 17.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 40.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 14148000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 18000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.78
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:28",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Kinshasa"
+    },
+    "country": {
+      "type": "Property",
+      "value": "Congo (Kinshasa)"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          15.3119,
+          -4.3219
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1881
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 19.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 32.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 25.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 25.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 12836000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 83000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.48
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:29",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Rio de Janeiro"
+    },
+    "country": {
+      "type": "Property",
+      "value": "Brazil"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          -43.2056,
+          -22.9111
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1565
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 18.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 37.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 24.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 35.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 12592000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 23000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.78
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:30",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Chennai"
+    },
+    "country": {
+      "type": "Property",
+      "value": "India"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          80.275,
+          13.0825
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1639
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 20.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 39.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 28.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 55.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 12395000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 38000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.74
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:31",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Xi'an"
+    },
+    "country": {
+      "type": "Property",
+      "value": "China"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          108.9422,
+          34.2611
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 202
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": -2.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 37.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 14.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 60.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 12328000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 22000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.76
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:32",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Lahore"
+    },
+    "country": {
+      "type": "Property",
+      "value": "Pakistan"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          74.3436,
+          31.5497
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1021
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 5.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 42.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 25.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 35.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 12306000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 50000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.61
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:33",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Chongqing"
+    },
+    "country": {
+      "type": "Property",
+      "value": "China"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          106.5504,
+          29.5637
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1189
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 6.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 36.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 18.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 55.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 12135000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 28000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.77
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:34",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Los Angeles"
+    },
+    "country": {
+      "type": "Property",
+      "value": "United States"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          -118.4068,
+          34.1141
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1781
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 9.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 35.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 18.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 75.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 11922389.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 16000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.95
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:35",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Baoding"
+    },
+    "country": {
+      "type": "Property",
+      "value": "China"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          115.464,
+          38.874
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1227
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": -4.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 37.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 14.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 50.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 11544036.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 10000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.72
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:36",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "London"
+    },
+    "country": {
+      "type": "Property",
+      "value": "United Kingdom"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          -0.1275,
+          51.5072
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 47
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 1.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 28.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 11.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 85.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 11262000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 13000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.93
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:37",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Paris"
+    },
+    "country": {
+      "type": "Property",
+      "value": "France"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8567
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 52
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 2.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 30.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 11.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 80.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 11060000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 10000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.92
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:38",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Linyi"
+    },
+    "country": {
+      "type": "Property",
+      "value": "China"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          118.3564,
+          35.1038
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 250
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": -3.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 34.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 13.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 50.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 11018365.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 12000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.71
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:39",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Dongguan"
+    },
+    "country": {
+      "type": "Property",
+      "value": "China"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          113.752,
+          23.021
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 331
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 10.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 35.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 23.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 65.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 10646000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 16000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.79
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:40",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Hyderabad"
+    },
+    "country": {
+      "type": "Property",
+      "value": "India"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          78.4747,
+          17.3617
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1591
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 15.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 40.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 26.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 50.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 10494000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 35000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.67
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:41",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Tianjin"
+    },
+    "country": {
+      "type": "Property",
+      "value": "China"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          117.2054,
+          39.1336
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1404
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": -6.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 35.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 12.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 60.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 10368000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 20000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.78
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:42",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Lima"
+    },
+    "country": {
+      "type": "Property",
+      "value": "Peru"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          -77.0375,
+          -12.06
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1535
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 15.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 29.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 19.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 60.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 10320000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 16000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.76
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:43",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Wuhan"
+    },
+    "country": {
+      "type": "Property",
+      "value": "China"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          114.3046,
+          30.5934
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 223
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 3.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 38.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 17.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 55.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 10251000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 18000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.78
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:44",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Nanyang"
+    },
+    "country": {
+      "type": "Property",
+      "value": "China"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          112.5292,
+          32.9987
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 202
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": -2.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 37.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 14.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 50.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 9713112.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 11000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.7
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:45",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Hangzhou"
+    },
+    "country": {
+      "type": "Property",
+      "value": "China"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          120.153,
+          30.267
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 589
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 4.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 38.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 17.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 65.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 9523000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 20000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.8
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:46",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Foshan"
+    },
+    "country": {
+      "type": "Property",
+      "value": "China"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          113.1216,
+          23.0214
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1271
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 10.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 35.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 22.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 60.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 9498863.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 12000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.77
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:47",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Nagoya"
+    },
+    "country": {
+      "type": "Property",
+      "value": "Japan"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          136.9,
+          35.1833
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1610
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 1.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 35.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 15.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 75.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 9197000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 9000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.92
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:48",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Tongshan"
+    },
+    "country": {
+      "type": "Property",
+      "value": "China"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          117.284,
+          34.204
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 194
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": -1.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 33.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 15.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 50.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 9083790.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 11000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.69
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:49",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Luanda"
+    },
+    "country": {
+      "type": "Property",
+      "value": "Angola"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          13.2344,
+          -8.8383
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 1576
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": 19.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 31.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 24.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 30.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 9051000.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 53000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.58
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:City:50",
+    "type": "City",
+    "name": {
+      "type": "Property",
+      "value": "Zhoukou"
+    },
+    "country": {
+      "type": "Property",
+      "value": "China"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          114.6418,
+          33.625
+        ]
+      }
+    },
+    "year_foundation": {
+      "type": "Property",
+      "value": 688
+    },
+    "min_temperature": {
+      "type": "Property",
+      "value": -3.0
+    },
+    "max_temperature": {
+      "type": "Property",
+      "value": 36.0
+    },
+    "mean_temperature": {
+      "type": "Property",
+      "value": 14.0
+    },
+    "safe_index": {
+      "type": "Property",
+      "value": 45.0
+    },
+    "population": {
+      "type": "Property",
+      "value": 9026015.0
+    },
+    "population_2100": {
+      "type": "Property",
+      "value": 10000000
+    },
+    "hdi": {
+      "type": "Property",
+      "value": 0.68
+    }
+  }
+]
