@@ -1,0 +1,155 @@
+﻿prompt,response
+What is the current broker version?," curl -X GET ""http://localhost:1026/version"""
+"Retrieve the data of the building with ID urn:ngsi-ld:Building:farm001, using the @context as a Link header to define the entities returned, with ngsi-context.jsonld providing short names for every attribute.","curl -L -X GET 'http://localhost:1026/ngsi-ld/v1/entities/urn:ngsi-ld:Building:farm001' \
+-H 'Accept: application/ld+json' \
+-H 'Link: <http://context/user-context.jsonld>; rel=""http://www.w3.org/ns/json-ld#context""; type=""application/ld+json""'"
+"Read the full context of the temperature sensor with ID urn:ngsi-ld:TemperatureSensor:001 in normalized NGSI-LD format, including system attributes, with the @context in the header ","curl --location 'http://localhost:1026/ngsi-ld/v1/entities/urn:ngsi-ld:TemperatureSensor:001?options=normalized' \
+--header 'Link: <http://context/user-context.jsonld>; rel=""http://www.w3.org/ns/json-ld#context""; type=""application/ld+json""'"
+Obtain entity data Building using Fully Qualified Names,"curl --location 'http://localhost:1026/ngsi-ld/v1/entities?type=https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Building%2FBuilding' \
+--header 'Accept: application/ld+json'"
+Show the entity id store001 of Building type using concise form,"curl --location 'http://localhost:1026/ngsi-ld/v1/entities/urn:ngsi-ld:Building:store001?options=keyValues' \
+--header 'Accept: application/ld+json'"
+Show the entity id store001 of Building type,"curl --location 'http://localhost:1026/ngsi-ld/v1/entities/urn:ngsi-ld:Building:store001' \
+--header 'Accept: application/ld+json'"
+Give me a command to read the value of the temperature attribute from the temperature sensor with ID urn:ngsi-ld:TemperatureSensor:002.,"curl -G -iX GET 'http://localhost:1026/ngsi-ld/v1/entities/urn:ngsi-ld:TemperatureSensor:002' \
+-H 'Link: <http://context/user-context.jsonld>; rel=""http://www.w3.org/ns/json-ld#context""; type=""application/ld+json""' \
+-d 'attrs=temperature'"
+Give me a command to read the key-value pairs from the context of the temperature sensor with ID urn:ngsi-ld:TemperatureSensor:001.,"curl -G -iX GET 'http://localhost:1026/ngsi-ld/v1/entities/urn:ngsi-ld:TemperatureSensor:001' \
+-H 'Link: <http://context/user-context.jsonld>; rel=""http://www.w3.org/ns/json-ld#context""; type=""application/ld+json""' \
+-H 'Accept: application/json' \
+-d 'options=keyValues'"
+Give me a command to read the values of the category and temperature attributes from the context of the temperature sensor with ID urn:ngsi-ld:TemperatureSensor:001.,"curl -G -iX GET 'http://localhost:1026/ngsi-ld/v1/entities/urn:ngsi-ld:TemperatureSensor:001' \
+-H 'Link: <http://context/user-context.jsonld>; rel=""http://www.w3.org/ns/json-ld#context""; type=""application/ld+json""' \
+-H 'Accept: application/json' \
+-d 'options=keyValues' \
+-d 'attrs=category,temperature'"
+"Obtain the location, temperatur and humidity of the temperature sensor number 2","curl -G -iX GET 'http://localhost:1026/ngsi-ld/v1/entities/urn:ngsi-ld:TemperatureSensor:2' \
+-H 'Link: <http://context/user-context.jsonld>; rel=""http://www.w3.org/ns/json-ld#context""; type=""application/ld+json""' \
+-H 'Accept: application/json' \
+-d 'attrs=location,humidity,temperature'"
+Obtain the location and temperature of the temperature sensor number 09,"curl -G -iX GET 'http://localhost:1026/ngsi-ld/v1/entities/urn:ngsi-ld:TemperatureSensor:09' \
+-H 'Link: <http://context/user-context.jsonld>; rel=""http://www.w3.org/ns/json-ld#context""; type=""application/ld+json""' \
+-H 'Accept: application/json' \
+-d 'attrs=location,temperature'"
+Obtain the key-value pairs (concise form) of the location and temperature of the temperature sensor number 005,"curl -G -iX GET 'http://localhost:1026/ngsi-ld/v1/entities/urn:ngsi-ld:TemperatureSensor:005' \
+-H 'Link: <http://context/user-context.jsonld>; rel=""http://www.w3.org/ns/json-ld#context""; type=""application/ld+json""' \
+-H 'Accept: application/json' \
+-d 'options=keyValues' \
+-d 'attrs=location,temperature'"
+Give me a command to list the full context of all TemperatureSensor entities.,"curl -G -iX GET 'http://localhost:1026/ngsi-ld/v1/entities/' \
+-H 'Link: <http://context/user-context.jsonld>; rel=""http://www.w3.org/ns/json-ld#context""; type=""application/ld+json""' \
+-d 'type=TemperatureSensor'"
+I would like to know all the attributes of the person entity type.,curl -X GET 'http://localhost:1026/ngsi-ld/v1/types/City'
+I'd like to have a list of entities of type Person,"curl -G -iX GET 'http://localhost:1026/ngsi-ld/v1/entities/' \ 
+-H 'Link: <http://context/user-context.jsonld>; rel=""""http://www.w3.org/ns/json-ld#context""""; type=""""application/ld+json""""' \
+-d 'type=Person'"
+Get the population of the City whose name is Tokyo,"curl -X GET ""http://localhost:1026/ngsi-ld/v1/entities?type=City&q=name==%22Tokyo%22&attrs=https://uri.etsi.org/ngsi-ld/default-context/population"" -H ""Accept: application/ld+json"""
+List all entities of type City. ,"curl -X GET ""http://localhost:1026/ngsi-ld/v1/entities?type=City"""
+List the entities of type animal,"curl -X GET ""http://localhost:1026/ngsi-ld/v1/entities?type=Animal"" -H  'type=""application/ld+json""'"
+"List all entities of type Person, using de default context","curl -X GET ""http://localhost:1026/ngsi-ld/v1/entities?type=Person"" -H  'type=""application/ld+json""'"
+"List all entities of type Person, using a user context in http://context/user-context.jsonld","curl -X GET ""http://localhost:1026/ngsi-ld/v1/entities?type=Person"" -H  'Link: <http://context/user-context.jsonld>; rel=""http://www.w3.org/ns/json-ld#context""; type=""application/ld+json""'"
+"Give me a command to retrieve all Building entities, using a Link header to associate type=""Building"" with the FQN https://uri.fiware.org/ns/dataModels/Building, and returning the response in key-value format","curl -G -X GET \
+    'http://localhost:1026/ngsi-ld/v1/entities' \
+-H 'Link: <http://context/user-context.jsonld>; rel=""http://www.w3.org/ns/json-ld#context""; type=""application/ld+json""' \
+-H 'Accept: application/ld+json' \
+    -d 'type=Building' \
+    -d 'options=keyValues'"
+"Retrieve all Building entities where the name attribute is ""Big Red Barn"", using the q parameter for filtering. Ensure spaces in the string are URL-encoded, return the response in key-value format (options=keyValues), and use json-context.jsonld as the @context file.","curl -G -X GET \
+  'http://localhost:1026/ngsi-ld/v1/entities/' \
+-H 'Link: <http://context/json-context.jsonld>; rel=""http://www.w3.org/ns/json-ld#context""; type=""application/ld+json""' \
+-H 'Accept: application/ld+json' \
+    -d 'type=Building' \
+    -d 'q=name==%22Big%20Red%20Barn%22' \
+    -d 'options=keyValues'"
+"Give me a command to retrieve Building entities using an alternate @context file (alternate-context.jsonld), which maps attribute names to their German equivalents, allowing queries to use alternative short names (e.g., type=Gebäude instead of type=Building).","curl -G -X GET \
+    'http://localhost:1026/ngsi-ld/v1/entities/' \
+-H 'Link: <http://context/alternate-context.jsonld>; rel=""http://www.w3.org/ns/json-ld#context""; type=""application/ld+json""' \
+-H 'Accept: application/ld+json' \
+    -d 'type=Geb%C3%A4ude' \
+    -d 'q=name==%22Big%20Red%20Barn%22' \
+    -d 'options=keyValues'"
+"Retrieve all Building entities where the category attribute contains either ""commercial"" or ""office"", using the q parameter with comma-separated values for filtering.","curl -G -X GET \
+    'http://localhost:1026/ngsi-ld/v1/entities/' \
+-H 'Link: <http://context/user-context.jsonld>; rel=""http://www.w3.org/ns/json-ld#context""; type=""application/ld+json""' \
+-H 'Accept: application/ld+json' \
+    -d 'type=Building' \
+    -d 'q=category==%22barn%22,%22farm_auxiliary%22' \
+    -d 'options=keyValues'"
+Fetch all Store entities located in the Tiergarten District as the sub attribute addressLocality,"curl -G -X GET 'http://localhost:1026/ngsi-ld/v1/entities/' \
+-H 'Link: <http://context/json-context.jsonld>; rel=""http://www.w3.org/ns/json-ld#context""; type=""application/ld+json""' \
+-H 'Accept: application/ld+json' \
+    -d 'type=Building' \
+    -d 'q=address%5BaddressLocality%5D==%22Tiergarten%22' \
+    -d 'options=keyValues'"
+I'd like to retrieve all Building entities with the metadata verified address.,"curl -G -X GET \
+    'http://localhost:1026/ngsi-ld/v1/entities' \
+    -H 'Link: <http://context/json-context.jsonld>; rel=""http://www.w3.org/ns/json-ld#context; type=""application/ld+json""' \
+    -H 'Accept: application/json' \
+    -d 'type=Building' \
+    -d 'q=address.verified==true' \
+    -d 'options=keyValues'"
+"Fetch in concise format all Building entities within 800 meters of the Brandenburg Gate in Berlin (52.5162N, 13.3777W), using a geo-query with the parameters geometry, coordinates, and georel. Use json-context.jsonld found in context as the @context file.","curl -G -X GET \
+  'http://localhost:1026/ngsi-ld/v1/entities' \
+  -H 'Link: <http://context/json-context.jsonld>; rel=""http://www.w3.org/ns/json-ld#context""; type=""application/ld+json""' \
+  -H 'Accept: application/json' \
+  -d 'type=Building' \
+  -d 'geometry=Point' \
+  -d 'coordinates=%5B13.3777,52.5162%5D' \
+  -d 'georel=near%3BmaxDistance==800' \
+  -d 'options=keyValues'"
+"Fetch in normalized format all Building entities within 800 meters of the Brandenburg Gate in Berlin (52.5162N, 13.3777W), using a geo-query with the parameters geometry, coordinates, and georel. Use json-context.jsonld found in context as the @context file.","curl -G -X GET \
+  'http://localhost:1026/ngsi-ld/v1/entities' \
+  -H 'Link: <http://context/json-context.jsonld>; rel=""http://www.w3.org/ns/json-ld#context""; type=""application/ld+json""' \
+  -H 'Accept: application/json' \
+  -d 'type=Building' \
+  -d 'geometry=Point' \
+  -d 'coordinates=%5B13.3777,52.5162%5D' \
+  -d 'georel=near%3BmaxDistance==800'"
+"Fetch in normalized format all Building entities within 500 meters of the Brandenburg Gate in Berlin (52.5162N, 13.3777W), using a geo-query with the parameters geometry, coordinates, and georel.","curl -G -X GET \
+  'http://localhost:1026/ngsi-ld/v1/entities' \
+  -H 'type=""application/ld+json""' \
+  -H 'Accept: application/json' \
+  -d 'type=Building' \
+  -d 'geometry=Point' \
+  -d 'coordinates=%5B13.3777,52.5162%5D' \
+  -d 'georel=near%3BmaxDistance==500'"
+"Fetch in normalized format all Building entities within 300 meters of the Brandenburg Gate in Berlin (52.5162N, 13.3777W)","curl -G -X GET \
+  'http://localhost:1026/ngsi-ld/v1/entities' \
+  -H 'type=""application/ld+json""' \
+  -H 'Accept: application/json' \
+  -d 'type=Building' \
+  -d 'geometry=Point' \
+  -d 'coordinates=%5B13.3777,52.5162%5D' \
+  -d 'georel=near%3BmaxDistance==300'"
+"Fetch in concise format all Building entities within 1350 meters of the Brandenburg Gate in Berlin (52.5162N, 13.3777W)","curl -G -X GET \
+  'http://localhost:1026/ngsi-ld/v1/entities' \
+  -H 'type=""application/ld+json""' \
+  -H 'Accept: application/json' \
+  -d 'type=Building' \
+  -d 'geometry=Point' \
+  -d 'coordinates=%5B13.3777,52.5162%5D' \
+  -d 'georel=near%3BmaxDistance==1350' -d 'options=keyValues'"
+"Fetch in concise format all Person entities within 100 meters of the Reichstag in Berlin (52.518589N, 13.376665W)","curl -G -X GET \
+  'http://localhost:1026/ngsi-ld/v1/entities' \
+  -H 'type=""application/ld+json""' \
+  -H 'Accept: application/json' \
+  -d 'type=Person' \
+  -d 'geometry=Point' \
+  -d 'coordinates=%5B13.376665,52.518589%5D' \
+  -d 'georel=near%3BmaxDistance==100' -d 'options=keyValues'"
+"Retrieve all the parkings with distance of at least 1 kilometer from the Berlin Wall (52.535152N, 13.390206W) using the context found in localhost json-context.jsonld as a context file","curl -G -X GET \
+  'http://localhost:1026/ngsi-ld/v1/entities' \
+  -H 'type=""application/ld+json""' \
+  -H 'Accept: application/json' \
+  -d 'type=Parking' \
+  -d 'geometry=Point' \
+  -d 'coordinates=%5B13.390206,52.535152%5D' \
+  -d 'georel=near%3BminDistance==1000' -H 'Link:<http://localhost/json-context.jsonld>'"
+"Retrieve all the stores with distance of at least 2 kilometers from the Berlin Wall (52.535152N, 13.390206W) using the default context , in canonical format","curl -G -X GET \
+  'http://localhost:1026/ngsi-ld/v1/entities' \
+  -H 'type=""application/ld+json""' \
+  -H 'Accept: application/json' \
+  -d 'type=Store' \
+  -d 'geometry=Point' \
+  -d 'coordinates=%5B13.390206,52.535152%5D' \
+  -d 'georel=near%3BminDistance==2000'"
